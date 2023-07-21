@@ -306,7 +306,9 @@
     .accordion .accordion-list:hover .accordion .accordion-list::before {
         display: none;
     }
-
+    .accordion .accordion-list:hover .m-acc {
+        display: block;
+    }
     .m-acc .m-acc-list {
         margin: 0 3rem 0 8rem;
         padding-bottom: 2rem;
